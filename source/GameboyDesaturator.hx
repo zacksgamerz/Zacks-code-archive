@@ -3,6 +3,9 @@ package;
 import flixel.system.FlxAssets.FlxShader;
 
 
+// original shader in question: https://www.shadertoy.com/view/MdfXDH
+// Ported by ZackDroid with the help of luckydog.
+
 class GameboyHandler {
     //public var size(default, set):Float = 128.0;
     //public var threshold(default, set):Float = 0.006;
