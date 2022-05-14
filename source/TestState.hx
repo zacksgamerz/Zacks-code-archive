@@ -128,6 +128,9 @@ class TestState extends FlxState{
                 default:
             }
         }
+
+        if (FlxG.keys.justPressed.SHIFT)
+            FlxG.switchState(new TestState2());
     }
 
     public function changeShit(?huh:Int = 0) {
